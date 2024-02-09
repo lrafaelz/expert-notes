@@ -1,4 +1,5 @@
 # Logs
+.DS_*
 logs
 *.log
 npm-debug.log*
@@ -6,6 +7,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+**/*.backup.*
+**/*.back.*
+
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
 
 node_modules
 dist
@@ -22,3 +33,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+### react ###
