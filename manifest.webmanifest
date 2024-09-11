@@ -1,0 +1,18 @@
+{
+  "short_name": "speechNotes",
+  "name": "Speech Notes",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "theme-color": "#0f172a",
+  "background_color": "#0f172a",
+  "background-color": "#0f172a",
+  "description": "A simple note taking app that uses speech recognition to convert your voice to text.",
+  "icons": [
+    {
+      "src": "src/assets/bird-colorful.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
