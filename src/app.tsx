@@ -1,4 +1,5 @@
 import logo from './assets/bird-colorful.png'
+import InstallPWAButton from './components/InstallPWAButton'
 import { NewNoteCard } from './components/new-note-card'
 import { NoteCard } from './components/note-card'
 import { ChangeEvent, useState } from 'react'
@@ -56,7 +57,10 @@ export function App() {
 
   return  (
     <div className='mx-auto max-w-6xl my-12 space-y-6 px-5'>
-      <img src={ logo } alt="logo-NLW" width={80} />
+      <div className='flex flex-row justify-between items-center'>
+        <img src={ logo } alt="logo-NLW" width={80} />
+        <InstallPWAButton />
+      </div>
       <form className='w-full'>
         <input 
           type="text" 
